@@ -1,0 +1,18 @@
+name: youtube_mp3_gui
+description: A YouTube to MP3 downloader built with Flutter and Lottie
+version: 1.0.0
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.0
+  http: ^1.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/hb1pvoDfyO.json
