@@ -23,3 +23,31 @@ A simple, elegant YouTube downloader built using **Flutter**, supporting MP3 (au
 ```bash
 git clone https://github.com/KunalNepali/downloader.git
 cd downloader
+
+### Install dependencies
+
+2. **Install dependencies**  
+```bash
+flutter pub get
+
+
+3.**Run in browser(Flutter Web)**
+```bash
+flutter run -d chrome
+
+4.**Run on Android**
+```bash
+flutter run
+
+5. **Folder Structure**
+```bash
+downloader/
+├── assets/                 # Lottie files, images, etc.
+├── lib/
+│   ├── main.dart           # Entry point
+│   ├── pages/              # UI screens
+│   ├── widgets/            # Reusable components
+│   └── services/           # Backend logic (downloads, etc.)
+├── pubspec.yaml            # Flutter dependencies
+├── README.md               # Project documentation
+
